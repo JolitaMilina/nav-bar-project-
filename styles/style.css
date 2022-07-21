@@ -1,0 +1,54 @@
+
+.sidebar {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-decoration: none;
+  width: 25%;
+  background-color: lightgrey;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+.sidebar li a {
+  text-decoration: none;
+  display: block;
+  padding: 5px 16px;
+}
+
+.text {
+  margin-left: 25%;
+  padding: 1px 15px;
+  height: 1000px;
+}
+
+@media (max-width: 500px) {
+  .sidebar {
+    position: relative;
+    height: auto;
+    width: 100%;
+  }
+  .sidebar li a {
+    float:left;
+    padding: 15px;
+  }
+}
+
+.sidebar a:link {
+  color: white;
+}
+
+.sidebar a:visited {
+  color: blue;
+}
+
+.sidebar a:hover {
+  background-color: white;
+  width: 25%;
+  cursor: pointer;
+}
+
+p, li {
+  font-size: 18px;
+}
