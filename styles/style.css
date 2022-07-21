@@ -4,7 +4,7 @@
   padding: 0;
   list-style-type: none;
   text-decoration: none;
-  width: 25%;
+  width: 15%;
   background-color: lightgrey;
   position: fixed;
   height: 100%;
@@ -18,7 +18,7 @@
 }
 
 .text {
-  margin-left: 25%;
+  margin-left: 20%;
   padding: 1px 15px;
   height: 1000px;
 }
@@ -33,6 +33,9 @@
     float:left;
     padding: 15px;
   }
+  .text {
+    margin-left: 5px;
+  }
 }
 
 .sidebar a:link {
@@ -45,7 +48,7 @@
 
 .sidebar a:hover {
   background-color: white;
-  width: 25%;
+  width: 30%;
   cursor: pointer;
 }
 
